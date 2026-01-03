@@ -25,14 +25,14 @@ Typical Use Case	Business applications, UI frameworks, complex domains	  Data pi
 Quiz#01
 =========
 1-What is the difference between list and generator in terms of memory?
-A.
+Answer.
     A list stores all elements in memory at once, which can consume significant memory for large datasets.
     A generator produces elements one at a time on-the-fly (lazily) using the yield keyword, keeping only the current element in memory. This makes generators memory-efficient for large or infinite sequences.
         list_nums = [x for x in range(1000000)]
         gen_nums = (x for x in range(1000000))
 
 2-Why is dict suitable for network data?
-A.
+Answer.
     1- Fast Lookups: O(1) average time complexity for accessing values by keys (e.g., looking up a device by IP address).
     2- Flexible Structure: Can represent structured network data naturally (e.g., {"ip": "192.168.1.1", "status": "active", "traffic": 500}).
     3- Easy Aggregation: Efficient grouping and counting using keys (e.g., traffic per link, devices per subnet).
@@ -40,7 +40,7 @@ A.
         device = {"ip": "10.0.0.1", "mac": "00:1A:2B:3C:4D:5E", "status": "up"}
 
 3-Explain mutable vs immutable with example.
-A.
+Answer.
     Mutable objects can be changed after creation, while immutable objects cannot be modified.
         my_list = [1, 2, 3]
         my_list[0] = 99  # Allowed: list is mutable
@@ -50,7 +50,7 @@ A.
         # my_tuple[0] = 99  # ERROR: tuple is immutable
 
 4-If the data becomes 1 milion records, which structure becomes problematic?
-A.
+Answer.
     For 1 million records, these structures could become problematic:
     1- Large lists holding all data in memory → high memory consumption.
     2- Deeply nested structures (e.g., lists of lists with many levels) → slow access and high memory overhead.
