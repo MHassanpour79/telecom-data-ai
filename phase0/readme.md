@@ -15,13 +15,13 @@
     Data Programming: Relationships are modeled through simple keys and values in generic data structures. Data is often kept in a more normalized, "flat" format, and relationships are established by linking data via unique identifiers (IDs).
 
 
-Aspect	            Normal (OOP) Programming	                            Data Programming (DOP)
-=========================================================================================================================
-Core Unit	        Object/Class (encapsulates state & behavior)	          Data Structure + Pure Transform Function
-State	            Mutable, Stateful Objects	                              Immutable, Often Stateless Data
-Relationships	    Object References & Hierarchies	                        Keys, IDs, and Generic Collections
-Primary Goal	    Model real-world behavior, encapsulation	              Efficient data transformation, simplicity, clarity
-Typical Use Case	Business applications, UI frameworks, complex domains	  Data pipelines, game engines, high-performance systems, analytics
+Aspect	           | Normal (OOP) Programming	                           |  Data Programming (DOP)
+===================|=======================================================|===============================================
+Core Unit	       | Object/Class (encapsulates state & behavior)	       |  Data Structure + Pure Transform Function
+State	           | Mutable, Stateful Objects	                           |  Immutable, Often Stateless Data
+Relationships	   | Object References & Hierarchies	                   |  Keys, IDs, and Generic Collections
+Primary Goal	   | Model real-world behavior, encapsulation	           |  Efficient data transformation, simplicity, clarity
+Typical Use Case   | Business applications, UI frameworks, complex domains |  Data pipelines, game engines, high-performance systems, analytics
 
 
 
