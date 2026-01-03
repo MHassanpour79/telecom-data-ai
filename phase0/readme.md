@@ -17,7 +17,9 @@
 
 Aspect	           | Normal (OOP) Programming	                           |  Data Programming (DOP)
 ===================|=======================================================|===============================================
+                   |                                                       | 
 Core Unit	       | Object/Class (encapsulates state & behavior)	       |  Data Structure + Pure Transform Function
+                   |                                                       |
 State	           | Mutable, Stateful Objects	                           |  Immutable, Often Stateless Data
 Relationships	   | Object References & Hierarchies	                   |  Keys, IDs, and Generic Collections
 Primary Goal	   | Model real-world behavior, encapsulation	           |  Efficient data transformation, simplicity, clarity
